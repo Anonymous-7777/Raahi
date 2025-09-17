@@ -29,10 +29,10 @@ In key tourism regions like Northeast India, ensuring visitor safety is paramoun
 
 Raahi is a robust digital ecosystem that addresses this challenge through four key pillars:
 
-* ** Blockchain-Verified Digital ID:** A secure, tamper-proof, and time-limited digital ID is issued on the Polygon network. This is linked to a physical **NFC wristband** for instant, on-the-ground verification by authorities, ensuring identity integrity.
-* ** Smart Mobile App:** A native Android application serves as the tourist's digital guardian. It features a one-touch **Panic Button**, proactive **Geo-fencing alerts** for high-risk zones, and a clear interface for accessing personal and emergency information.
-* ** Real-time Authorities' Dashboard:** A sophisticated web-based command center for police and tourism departments. It provides a live map with real-time tourist locations, an integrated alert management system, and data visualization tools for heatmaps and cluster analysis.
-* ** Proactive Alerting (Planned):** A planned AI "Watchdog" will provide anomaly detection to flag distress signals (e.g., signal loss, route deviation). The current version utilizes a robust rule-based engine.
+* **Blockchain-Verified Digital ID:** A secure, tamper-proof, and time-limited digital ID is issued on the Polygon network. This is linked to a physical **NFC wristband** for instant, on-the-ground verification by authorities, ensuring identity integrity.
+* **Smart Mobile App:** A native Android application serves as the tourist's digital guardian. It features a one-touch **Panic Button**, proactive **Geo-fencing alerts** for high-risk zones, and a clear interface for accessing personal and emergency information.
+* **Real-time Authorities' Dashboard:** A sophisticated web-based command center for police and tourism departments. It provides a live map with real-time tourist locations, an integrated alert management system, and data visualization tools for heatmaps and cluster analysis.
+* **Proactive Alerting (Planned):** A planned AI "Watchdog" will provide anomaly detection to flag distress signals (e.g., signal loss, route deviation). The current version utilizes a robust rule-based engine.
 
 ## 4. Demo Video
 
