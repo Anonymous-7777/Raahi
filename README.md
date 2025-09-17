@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://raahi1.vercel.app/"><img src="https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=firebase" alt="Live Dashboard"></a>
-  <a href="https://github.com/your-username/raahi-project/releases/download/v1.0/raahi-app.apk"><img src="https://img.shields.io/badge/Download-Android_APK-blue?style=for-the-badge&logo=android" alt="Download APK"></a>
+  <a href="https://github.com/Anonymous-7777/Raahi/blob/main/Raahi.apk"><img src="https://img.shields.io/badge/Download-Android_APK-blue?style=for-the-badge&logo=android" alt="Download APK"></a>
 </p>
 
 ---
