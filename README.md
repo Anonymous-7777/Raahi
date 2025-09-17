@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/your-logo-url.png" alt="Project Raahi Logo" width="150">
+  <img <img width="114" height="876" alt="Image" src="https://github.com/user-attachments/assets/55143a93-2078-4766-a02f-64569d9982f4" />
 </p>
 
 <h1 align="center">Project Raahi (Version 1.0)</h1>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://your-project-name.web.app"><img src="https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=firebase" alt="Live Dashboard"></a>
+  <a href="https://raahi1.vercel.app/"><img src="https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=firebase" alt="Live Dashboard"></a>
   <a href="https://github.com/your-username/raahi-project/releases/download/v1.0/raahi-app.apk"><img src="https://img.shields.io/badge/Download-Android_APK-blue?style=for-the-badge&logo=android" alt="Download APK"></a>
 </p>
 
