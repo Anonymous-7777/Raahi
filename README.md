@@ -40,8 +40,7 @@ Raahi is a robust digital ecosystem that addresses this challenge through four k
 
 ## 🔑 Demo Credentials
 
-To test the mobile app and web dashboard, please use the following pre-configured credentials for our test user, "Aisha Sharma," and a demo officer.
-
+To test the mobile app and web dashboard, please use the following pre-configured credentials for our test user
 ### 📱 For the Tourist Mobile App (Raahi)
 
 * **Username:** `king@gmail.com`
@@ -57,7 +56,6 @@ To test the mobile app and web dashboard, please use the following pre-configure
 * **Username:** `mussa@p.com`
 * **Password:** `12345678`
 
-> **Note:** For this 7-day hackathon prototype, the authentication is simulated to demonstrate the core application flow. The login will succeed with the credentials above, taking you directly into the pre-loaded demonstration environment.
 
 ## 5. Architecture Highlights
 
