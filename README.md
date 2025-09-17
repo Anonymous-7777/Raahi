@@ -29,10 +29,10 @@ In key tourism regions like Northeast India, ensuring visitor safety is paramoun
 
 Raahi is a robust digital ecosystem that addresses this challenge through four key pillars:
 
-* **🛡️ Blockchain-Verified Digital ID:** A secure, tamper-proof, and time-limited digital ID is issued on the Polygon network. This is linked to a physical **NFC wristband** for instant, on-the-ground verification by authorities, ensuring identity integrity.
-* **📱 Smart Mobile App:** A native Android application serves as the tourist's digital guardian. It features a one-touch **Panic Button**, proactive **Geo-fencing alerts** for high-risk zones, and a clear interface for accessing personal and emergency information.
-* **🗺️ Real-time Authorities' Dashboard:** A sophisticated web-based command center for police and tourism departments. It provides a live map with real-time tourist locations, an integrated alert management system, and data visualization tools for heatmaps and cluster analysis.
-* **🤖 Proactive Alerting (Roadmap):** A planned AI "Watchdog" will provide anomaly detection to flag distress signals (e.g., signal loss, route deviation). The current version utilizes a robust rule-based engine.
+* ** Blockchain-Verified Digital ID:** A secure, tamper-proof, and time-limited digital ID is issued on the Polygon network. This is linked to a physical **NFC wristband** for instant, on-the-ground verification by authorities, ensuring identity integrity.
+* ** Smart Mobile App:** A native Android application serves as the tourist's digital guardian. It features a one-touch **Panic Button**, proactive **Geo-fencing alerts** for high-risk zones, and a clear interface for accessing personal and emergency information.
+* ** Real-time Authorities' Dashboard:** A sophisticated web-based command center for police and tourism departments. It provides a live map with real-time tourist locations, an integrated alert management system, and data visualization tools for heatmaps and cluster analysis.
+* ** Proactive Alerting (Planned):** A planned AI "Watchdog" will provide anomaly detection to flag distress signals (e.g., signal loss, route deviation). The current version utilizes a robust rule-based engine.
 
 ## 4. Demo Video
 
@@ -44,7 +44,7 @@ The platform is built on a modern, serverless architecture designed for massive 
 
 * **Serverless-First Architecture:** The entire backend is built on Google's serverless platform, Firebase. This includes **Cloud Functions** for custom logic, **Firestore** for data, and **Authentication**, completely eliminating the need to manage traditional server infrastructure.
 * **Real-time Data Core:** The platform leverages both **Cloud Firestore** and the **Firebase Realtime Database** to provide instantaneous data synchronization for the live map and emergency alerts, ensuring a highly responsive system for safety-critical events.
-* **Geospatial Querying via Geohashing:** This architecture uses **Leafflet** with the Firebase Realtime Database. This allows for efficient, scalable radius-based queries (e.g., "find all users within 5km"), which is a core requirement for the dashboard.
+* **Geospatial Querying via Geohashing:** This architecture uses **Leaflet** with the Firebase Realtime Database. This allows for efficient, scalable radius-based queries (e.g., "find all users within 5km"), which is a core requirement for the dashboard.
 * **Privacy by Design:** Enforces a strict separation of on-chain vs. off-chain data. Only an anonymous, non-personal hash is ever stored on the public blockchain, while all sensitive user data resides in the secure, off-chain Firestore database.
 
 ## 6. Technology Stack
@@ -70,6 +70,6 @@ The platform is built on a modern, serverless architecture designed for massive 
 - [ ] **Commerce & Convenience Features (v2.5)**
 
 
-## 11. Acknowledgments
+## 8. Acknowledgments
 
 * The logo and visual assets used in this project were generated using AI image generation tools.
