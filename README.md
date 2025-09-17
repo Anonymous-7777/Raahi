@@ -38,7 +38,7 @@ Raahi is a robust digital ecosystem that addresses this challenge through four k
 
 * [**Watch the 90-Second Demo Video on YouTube**](https://link-to-your-video.com)
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 To test the mobile app and web dashboard, please use the following pre-configured credentials for our test user
 ### 📱 For the Tourist Mobile App (Raahi)
@@ -46,12 +46,12 @@ To test the mobile app and web dashboard, please use the following pre-configure
 * **Username:** `king@gmail.com`
 * **Password:** `321654987`
 
-### 🖥️ For the Authorities' Web Dashboard
+### For the Authorities' Web Dashboard
 
 * **Username:** `aadya@p.com`
 * **Password:** `12345678`
 
-  ### 🖥️ For the Issuer' Web Dashboard
+  ### For the Issuer' Web Dashboard
 
 * **Username:** `mussa@p.com`
 * **Password:** `12345678`
