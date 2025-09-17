@@ -1,89 +1,75 @@
-# प्रोजेक्ट राही (Project Raahi)
-### A Smart Tourist Safety & Convenience Ecosystem
+<p align="center">
+  <img src="https://i.imgur.com/your-logo-url.png" alt="Project Raahi Logo" width="150">
+</p>
 
-![Hackathon](https://img.shields.io/badge/Hackathon-Submission-blue.svg)
+<h1 align="center">Project Raahi (Version 1.0)</h1>
 
-A comprehensive platform using AI, Blockchain, and IoT to provide a proactive safety net for visitors in regions like the Northeast. This project is a submission for the [Name of Hackathon].
+<p align="center">
+  <strong>A Smart Tourist Safety & Convenience Ecosystem</strong>
+  <br />
+</p>
 
----
-
-## 🎥 Demo Video
-
-**Our entire concept is demonstrated in this 90-second video.**
-
-[**Watch the Demo Video on YouTube**](https://link-to-your-video.com)
-
----
-
-## 🚀 Live Demo & APK
-
-Access the live demo of the authorities' dashboard and download the Android APK using the links below.
-
-[![Live Dashboard](https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=vercel)](https://your-deployed-link.vercel.app)
-[![Download APK](https://img.shields.io/badge/Download-Android_APK-blue?style=for-the-badge&logo=android)](https://github.com/your-username/raahi-project/releases/download/v1.0/raahi-app.apk)
+<p align="center">
+  <a href="https://your-project-name.web.app"><img src="https://img.shields.io/badge/Live-Dashboard-brightgreen?style=for-the-badge&logo=firebase" alt="Live Dashboard"></a>
+  <a href="https://github.com/your-username/raahi-project/releases/download/v1.0/raahi-app.apk"><img src="https://img.shields.io/badge/Download-Android_APK-blue?style=for-the-badge&logo=android" alt="Download APK"></a>
+</p>
 
 ---
 
-## ✨ Key Features
+## 1. Overview
 
-* **🛡️ Blockchain-Verified Digital ID:** A secure, tamper-proof ID is issued on the Polygon testnet, linked to a physical **NFC wristband** for on-ground verification.
-* **📱 Smart Mobile App:** A native Android app for tourists featuring a one-touch **Panic Button** and a real-time location service.
-* **🤖 AI "Watchdog" (Vision):** A proactive anomaly detection engine to flag distress signals even when the panic button isn't pressed. For the demo, this is simulated.
-* **🗺️ Real-time Authorities' Dashboard:** A web-based command center for authorities to see live tourist locations and receive instant emergency alerts.
+Project Raahi is built on a foundation of trust and security. It's a digital companion designed to give tourists the freedom to explore with confidence, knowing that a proactive safety net is always watching over them.
 
----
+For authorities, it's a modern command center, providing the real-time situational awareness needed to protect visitors and manage the region's vibrant tourism economy effectively.
+## 2. The Problem
 
-## 🛠️ Tech Stack
+In key tourism regions like Northeast India, ensuring visitor safety is paramount for economic growth. Traditional policing and manual tracking methods are often insufficient in remote areas, leading to slow emergency response times. There is a pressing need for a smart, technology-driven solution that provides real-time monitoring, rapid response, and secure identity verification, while respecting user privacy.
 
-This project uses a modern, hybrid architecture to ensure performance and scalability.
+## 3. The Solution
 
-* **Frontend (Mobile):** Native Android (Kotlin with Jetpack Compose, Google Maps SDK)
-* **Frontend (Web):** React.js with TypeScript, Mapbox, Socket.IO Client
-* **Backend (Custom API):** Node.js with Express.js & Socket.IO
-* **Backend (BaaS):** Supabase (for Auth & Storage)
-* **Database:** Supabase Managed PostgreSQL + PostGIS extension
-* **Blockchain:** Solidity Smart Contract on Polygon (Layer 2)
-* **Physical Integration:** NFC Wristbands
-* **Version Control:** Git & GitHub
+Raahi is a robust digital ecosystem that addresses this challenge through four key pillars:
 
----
+* **🛡️ Blockchain-Verified Digital ID:** A secure, tamper-proof, and time-limited digital ID is issued on the Polygon network. This is linked to a physical **NFC wristband** for instant, on-the-ground verification by authorities, ensuring identity integrity.
+* **📱 Smart Mobile App:** A native Android application serves as the tourist's digital guardian. It features a one-touch **Panic Button**, proactive **Geo-fencing alerts** for high-risk zones, and a clear interface for accessing personal and emergency information.
+* **🗺️ Real-time Authorities' Dashboard:** A sophisticated web-based command center for police and tourism departments. It provides a live map with real-time tourist locations, an integrated alert management system, and data visualization tools for heatmaps and cluster analysis.
+* **🤖 Proactive Alerting (Roadmap):** A planned AI "Watchdog" will provide anomaly detection to flag distress signals (e.g., signal loss, route deviation). The current version utilizes a robust rule-based engine.
 
-## ⚙️ Getting Started
+## 4. Demo Video
 
-To run this project locally, follow these steps.
+* [**Watch the 90-Second Demo Video on YouTube**](https://link-to-your-video.com)
 
-### Prerequisites
-* Node.js (v18 or later)
-* Android Studio (latest version)
-* A Supabase account (free tier)
+## 5. Architecture Highlights
 
-### Backend & Dashboard Setup
-1.  **Clone the repository:** `git clone https://github.com/your-username/raahi-project.git`
-2.  **Set up Supabase:** Create a `.env` file in the `backend` folder with your Supabase URL and Anon Key.
-3.  **Install dependencies:** `cd web-dashboard && npm install` and `cd backend && npm install`.
-4.  **Run the backend:** `cd backend && npm start`.
-5.  **Run the dashboard:** `cd web-dashboard && npm start`.
+The platform is built on a modern, serverless architecture designed for massive scalability, real-time performance, and resilience.
 
-### Mobile App Setup
-1.  Open the `/mobile-app` folder in Android Studio.
-2.  Let Gradle sync the dependencies.
-3.  Update the backend URL in the networking configuration file.
-4.  Run the app on an emulator or a physical Android device.
+* **Serverless-First Architecture:** The entire backend is built on Google's serverless platform, Firebase. This includes **Cloud Functions** for custom logic, **Firestore** for data, and **Authentication**, completely eliminating the need to manage traditional server infrastructure.
+* **Real-time Data Core:** The platform leverages both **Cloud Firestore** and the **Firebase Realtime Database** to provide instantaneous data synchronization for the live map and emergency alerts, ensuring a highly responsive system for safety-critical events.
+* **Geospatial Querying via Geohashing:** This architecture uses **Leafflet** with the Firebase Realtime Database. This allows for efficient, scalable radius-based queries (e.g., "find all users within 5km"), which is a core requirement for the dashboard.
+* **Privacy by Design:** Enforces a strict separation of on-chain vs. off-chain data. Only an anonymous, non-personal hash is ever stored on the public blockchain, while all sensitive user data resides in the secure, off-chain Firestore database.
 
----
+## 6. Technology Stack
 
-## 👥 The Team
+* **Frontend (Mobile):** Native Android (**Kotlin**/Jetpack Compose). *An iOS version is on the roadmap.*
+* **Frontend (Web):** **React.js** with TypeScript, Mapbox, Firebase Client SDK.
+* **Backend (Serverless):** **Firebase Cloud Functions** (written in Node.js/TypeScript).
+* **Core BaaS:** The full **Firebase Suite**, including **Firebase Authentication** for user management and **Cloud Storage for Firebase** for files.
+* **Database (Primary):** **Cloud Firestore** (NoSQL) for all primary user data, profiles, and itineraries.
+* **Database (Real-time & Geospatial):** **Firebase Realtime Database** with the **Leaflet** library for live location tracking and proximity queries.
+* **Blockchain:** **Solidity** Smart Contract on **Polygon** (Layer 2).
+* **DevOps:** **Git & GitHub** for version control and **Firebase Hosting** for the web dashboard.
 
-* **Frontend (Web) Lead:** [Name of Person 1]
-* **Backend Lead:** [Name of Person 2]
-* **API Lead:** [Name of Person 3]
-* **Database Lead:** [Name of Person 4]
-* **Presentation Lead:** [Name of Person 5]
-* **App & Web3 Lead:** [Name of Person 6]
+## 7. Project Roadmap
 
----
+- [x] **Core Safety Platform (v1.0 - Current)**
+  - [x] Blockchain ID on Polygon Testnet
+  - [x] Native Android App with Panic Button & Live Tracking
+  - [x] Real-time Authorities' Dashboard
+  - [x] NFC Wristband Verification
+- [ ] **AI "Watchdog" Integration (v1.5)**
+- [ ] **iOS Application (v2.0)**
+- [ ] **Commerce & Convenience Features (v2.5)**
 
-## 🙏 Acknowledgments & Attributions
 
-* The logo, monument images, and other visual assets used in this project were generated using AI image generation tools.
-* This project was built with the help of the Gemini agent in Android Studio for code generation and architectural guidance.
+## 11. Acknowledgments
+
+* The logo and visual assets used in this project were generated using AI image generation tools.
