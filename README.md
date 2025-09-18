@@ -88,13 +88,50 @@ The platform is built on a modern, serverless architecture designed for massive 
 - [ ] **iOS Application (v2.0)**
 - [ ] **Commerce & Convenience Features (v2.5)**
 
+## 8. Getting Started
 
-## 8. Acknowledgments
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+* Node.js (v18+)
+* Android Studio (latest version)
+* A Firebase account (free "Spark" plan)
+* Firebase CLI: `npm install -g firebase-tools`
+
+### Firebase Project Setup
+1.  Go to the [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2.  In your project, enable **Firestore**, **Realtime Database**, **Authentication** (with Email/Password provider), and **Storage**.
+3.  Upgrade your project to the "Blaze (Pay as you go)" plan to enable Cloud Functions. *You will not be charged as long as you stay within the generous free tier.*
+4.  Register a new **Web App** in your project settings. Copy the `firebaseConfig` object.
+5.  Register a new **Android App**. Follow the steps to download the `google-services.json` file.
+
+### Local Installation
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/Anonymous-7777/Raahi
+    ```
+2.  **Web Dashboard Setup:**
+    * Navigate to the `web-dashboard` directory.
+    * Create a `.env.local` file and place your Web App's `firebaseConfig` variables into it.
+    * Install dependencies and run: `npm install && npm start`
+
+3.  **Firebase Functions (Backend) Setup:**
+    * Navigate to the `functions` directory.
+    * Install dependencies: `npm install`
+    * Deploy your functions: `firebase deploy --only functions`
+
+4.  **Mobile App Setup:**
+    * Place the `google-services.json` file you downloaded into the `/mobile-app/app` directory.
+    * Open the `/mobile-app` project in Android Studio and let Gradle sync.
+    * Run the app on an emulator or a physical device.
+
+
+## 9. Acknowledgments
 
 * The logo and visual assets used in this project were generated using AI image generation tools.
 
 
-## 9. Contributors
+## 10. Contributors
 
 * Nathwani Darshil Rajnibhai
 * Aadya Baranwal
