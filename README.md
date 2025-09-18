@@ -92,3 +92,13 @@ The platform is built on a modern, serverless architecture designed for massive 
 ## 8. Acknowledgments
 
 * The logo and visual assets used in this project were generated using AI image generation tools.
+
+
+## 9. Contributors
+
+* Nathwani Darshil Rajnibhai
+* Aadya Baranwal
+* Mussadik Ganashadabasha Jamadar
+* Aditya R Murthy
+* Anand Raj
+* M Jahnavi Reddy
